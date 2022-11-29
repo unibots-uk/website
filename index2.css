@@ -1,0 +1,263 @@
+body {
+    width: 100vw;
+    
+    margin: 0;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+#index {
+    width: 100%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    width: 100%;
+    max-width: 1265px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+    column-gap: 40px;
+    row-gap: 40px;
+
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#header-intro {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+
+    flex: 1 1 650px;
+}
+
+#logo-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    flex-basis: 100%;
+}
+
+#unibots-logo {
+    border-radius: 50%;
+}
+
+#header-text {
+    max-width: 510px;
+    min-width: 280px;
+    flex: 1 1 0;
+}
+
+#header-about {
+    /* min-width: 350px; */
+    min-width: 0;
+    flex: 1 1 350px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 20px;
+    /* row-gap: 10px; */
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+#header-about > div > .row {
+    height: 70px;
+}
+
+.small {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logo-about {
+    flex-basis: 0;
+    max-height: 70px;
+}
+
+.logo-about.adsk {
+    max-height: 60px;
+}
+
+.logo-about.cur {
+    box-sizing: border-box;
+    padding: 7px 0;
+}
+
+.logo-about.sot {
+    margin-top: -7px;
+}
+
+.section {
+    width: 100%;
+    max-width: 1400px;
+}
+
+.section > h2.year {
+    margin: 0;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #777;
+}
+
+.section > .content {
+    width: 100%;
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.desc-picture-cont {
+    width: 100%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 40px;
+
+    box-sizing: border-box;
+}
+
+.desc-picture-cont > img {
+    width: 100%;
+}
+
+.desc-picture-cont > .desc {
+    flex: 1 1 0;
+    padding: 0 20px;
+}
+
+@media (min-width: 750px) {
+    #logo-container {
+        flex-basis: 0;
+    }
+
+    #header {
+        width: unset;
+    }
+
+    #header-intro {
+        flex-wrap: nowrap;
+    }
+
+    #header-text > h1 {
+        margin-top: 0;
+    }
+
+    .logo-about {
+        max-width: unset;
+    }
+}
+
+@media (min-width: 1000px) {
+    #header {
+        padding: 40px;
+    }
+    
+    .desc-picture-cont {
+        padding: 0 20px;
+    }
+
+    .desc-picture-cont > img {
+        width: 66%;
+    }
+
+    .desc-picture-cont > .desc {
+        padding: 0;
+    }
+}
+
+@media (min-width: 1500px) {
+    #header {
+        max-width: unset;
+    }
+    #header-about {
+        flex-basis: 700px;
+    }
+}
+
+/* #info-buttons {
+    width: 80%;
+    margin-top: 20px;
+}
+
+a.button {
+    display: block;
+
+    min-width: 0;
+    max-width: 550px;
+
+    flex-basis: 80%;
+    flex-shrink: 0;
+    flex-grow: 1;
+
+    box-sizing: border-box;
+    padding: 10px 20px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--color-button-bg);
+    border-radius: 100px;
+    background-color: var(--color-button-bg);
+    color: var(--color-button-fg);
+    font-weight: 600;
+
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-decoration-thickness: 2px;
+
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+    transition: background-color .15s ease-out, color .15s ease-out, text-decoration-color .15s ease-out;
+}
+
+a.button:hover {
+    border-color: var(--color-button-fg-i, var(--color-button-bg));
+    background-color: var(--color-button-bg-i, var(--color-button-fg));
+    color: var(--color-button-fg-i, var(--color-button-bg));
+    text-decoration-color: var(--color-button-fg-i, var(--color-button-bg));
+}
+
+a.button.signup {
+    --color-button-bg: #00b523;
+    --color-button-fg: white;
+    --color-button-fg-i: #007c19;
+}
+
+a.button.discord {
+    --color-button-bg: black;
+    --color-button-fg: white;
+} */
+
+
