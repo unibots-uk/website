@@ -1,70 +1,117 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
-    <link rel="stylesheet" href="index.css">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <meta name="description"
+        content="Unibots UK is an autonomous robotics competition which university clubs can enter for free!">
+    <meta name="keywords" content="unibots, uk, robotics, university, competition, autonomous, students, robots">
+
+    <link rel="stylesheet" href="index1.css">
+
     <link rel="icon" href="images/unibots.ico">
     <title>Unibots UK</title>
-    <meta name="description" content="UniBots UK is an autonomous robotics competition which university clubs can enter for free!">
-    <meta name="keywords" content="unibots, uk, robotics, university, competition, autonomous, students, robots">
-  </head>
-  <body>
-    <img src="images/unibots.png" id="unibots-logo" alt="Unibots UK Logo">
-    <div class="center-text">
-      UniBots UK is an autonomous robotics competition which university clubs can enter for free!<br>
-      <br>
-      Come and learn about robotics with students from other UK universities and compete against them.<br>
-      The subject of the competition will be announced in the Autumn term of 2021 and you will have until Easter 2022 to perfect your design.<br>
-      <br>
-      Throughout this time we will support you and you will be able to talk to and learn from other students. This is an opportunity to put theory into practice and most importantly have fun playing with robots!<br>
-      <div class="row" style="width: 1000px; margin-top: 40px; margin-bottom: 40px;">
-        <a href="https://forms.gle/KXM8GV2c8FA5BsYh7" target="_blank" class="button">
-          <div class="button-div" style="color: white; background-color: #00b523;">
-            <b>SIGN YOUR TEAM UP</b>
-          </div>
-        </a>
-        <a href="https://discord.gg/7Nr37pC6dA" target="_blank" class="button">
-          <div class="button-div" style="color: white; background-color: black;">
-            <img src="images/Discord-Logo-White.svg" style="max-height: 25px; margin-bottom: -4px; margin-right: 15px;" alt="Discord Logo"><b>JOIN OUR DISCORD SERVER</b>
-          </div>
-        </a>
-        <div style="flex-basis: 100%; height: 0;"></div>
-        <a href="https://bit.ly/3kEh0fD" target="_blank" class="button" style="text-decoration-color: black;">
-          <div class="button-div" style="color: black; background-color: white; border-color: black; border-width: 2px; border-style: solid;">
-            <img src="images/document-icon.svg" style="max-height: 25px; margin-bottom: -4px; margin-right: 15px;" alt="Document Icon"><b>INTRODUCTORY DOCUMENT</b>
-          </div>
-        </a>
-      </div>
-      Organised by:
-    </div>
-    <div class="row" style="margin-top: 20px; margin-bottom: 40px;">
-      <a href="https://curobotics.soc.srcf.net/" target="_blank" class="row-logo">
-        <div>
-          <img src="images/logo-cambridge-cur.png" style="max-height: 100px;" alt="Cambridge University Robotics Logo">
-          <br>
-          University of Cambridge
+</head>
+
+<body>
+    <div id="index">
+        <div id="header">
+            <div id="header-intro">
+                <div id="logo-container">
+                    <img src="images/unibots.png" width="200" height="200" id="unibots-logo" alt="UniBots UK Logo">
+                </div>
+                <div id="header-text">
+                    <h1>Unibots UK</h1>
+                    Unibots UK is an autonomous robotics competition which all university clubs can enter for free, and win cash prizes!
+                </div>
+            </div>
+            <div id="header-about">
+                <div>
+                    <div class="small">SPONSORED BY</div>
+                    <div class="row">
+                        <img src="images/ADSK-primary-logo-1.svg" class="logo-about adsk" alt="Autodesk Logo">
+                    </div>
+                </div>
+                <div>
+                    <div class="small">ORGANISED BY</div>
+                    <div class="row">
+                        <img src="images/CURLOGO_TEXT.svg" height="100" class="logo-about cur" alt="Cambridge University Robotics Logo">
+                        <img src="images/logo-southampton-robosoc.png" class="logo-about sot" alt="RoboSoc Southampton Logo">
+                    </div>
+                </div>
+            </div>
+            <div id="prizes-subsidies" class="row">
+                <div id="header-text">
+                    <h2>Prizes</h2>
+                    The current prizes (in cash!) are:
+                    </br>
+                    1st: $500
+                    </br>
+                    2nd: $250
+                    </br>
+                    3rd: $100
+                </div>
+                <div id="header-text">
+                    <h2>Subsidies</h2>
+                    We will offer each team a $100 subsidy for any incurred expense! To qualify, teams should use Fusion360 to design their robot, and have a moving robot on the competition day.
+                </div>
+                <div id="header-text">
+                    <h2>Competition Details</h2>
+                    Date: Sat, 25th Mar 2023
+                    </br>
+                    Time: 1000-1700
+                    </br>
+                    Venue: Department of Engineering, University of Cambridge, Trumpington St, Cambridge CB2 1PZ, United Kingdom
+                </div>
+            </div>
         </div>
-      </a>
-      <a href="https://robosoc.uk" target="_blank" class="row-logo">
-        <div>
-          <img src="images/logo-southampton-robosoc.png" style="max-height: 100px;" alt="RoboSoc Southampton Logo">
-          <br>
-          University of Southampton
+        <div class="section">
+            <div class="content">
+                <div class="desc-picture-cont">
+                    <img src="images/DSC_2716-min.jpg">
+                    <div class="desc">
+                        <h3>Intermediate-level Competition</h3>
+                        <p>We designed the competition to allow anyone who has elementary experience with robotics to be able to build and compete. 
+                            
+                        </p>
+                        <p>Our arena pits 4 robots against each other, allowing more experienced competitors to showcase their strategies as well.</p>
+                        <p>Overall, our competition should be great fun for competitors with any level of experience!</p>
+                    </div>
+                </div>
+                <div class="desc-picture-cont alt">
+                    <img src="images/DSC_2517-min.jpg">
+                    <div class="desc">
+                        <h3>Competition Day</h3>
+                        <p>The competition will be held at the University of Cambridge, right after term ends for most universities. </p><p>The competition is a great way to meet other students that are as passionate about robotics as you are.</p><p> Not to mention, it's also a good excuse to visit Cambridge!</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </a>
-    </div>
-    <div class="center-text">
-      Our sponsors:
-    </div>
-    <div class="row" style="margin-top: 20px;">
-      <a href="https://www.autodesk.co.uk/" target="_blank" class="row-logo" style="height: 105px; overflow: hidden;">
-        <div>
-          <img src="images/ADSK-primary-logo-1.svg" style="max-height: 400px; margin-top: -100px; margin-bottom: -100px;" alt="Autodesk Logo">
-          <br>
-          Autodesk
+        <div class="section">
+            <div class="desc-picture-vert">
+                <img src="images/DSC_2866-min.jpg">
+                <div class="desc">
+                    If all this sounds fun, sign up for our competition! Sign-ups close on 31st Jan so that we can order shirts and other swag. However, do sign up early as we have a limited budget for subsidies. (estimated first ~20 teams)
+                </div>
+            </div>
         </div>
-      </a>
+        <div class="section">
+            <div id="info-buttons" class="row">
+                <a href="https://docs.google.com/document/d/1xoYq-tZEBt-ClGHGebHjb1InLklBAgVeFlTakuJzO-A/edit?usp=sharing" class="button intro doc">INTRO DOC</a>
+                <a class="button disabled" style="text-decoration: line-through; text-decoration-thickness: 2px;">RULEBOOK</a>
+                <!-- <a href="https://docs.google.com/document/d/1YowD7C3ESRy3aTf5P7Ir5JBH6Eg7VIlPpEMe-UsSBNo/edit?usp=sharing" class="button rulebook">RULEBOOK</a> -->
+            </div>
+            <div id="info-buttons" class="row">
+                <a class="button disabled" style="text-decoration: line-through; text-decoration-thickness: 2px;">SIGN YOUR TEAM UP</a>
+                <!-- <a href="https://forms.gle/dcdkSV2L6ZGRJ4vg8" class="button signup">SIGN YOUR TEAM UP</a> -->
+                <a href="https://discord.gg/N2xYcKAT5a" class="button discord">DISCORD SERVER</a>
+
+            </div>
+        </div>
     </div>
-    <br>
-  </body>
+</body>
+
 </html>
