@@ -28,7 +28,6 @@ body {
     align-items: center;
 
     column-gap: 40px;
-    /* row-gap: 40px; */
 
     box-sizing: border-box;
     padding: 20px;
@@ -66,9 +65,15 @@ body {
 #header-about {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: left;
+    /* justify-content: center; */
     align-items: flex-start;
     column-gap: 40px;
+}
+
+#header-about-item {
+    padding-top: 40px;
+    
 }
 
 .row {
@@ -83,6 +88,7 @@ body {
 #header-about > div > .row {
     flex-wrap: nowrap;
     height: 70px;
+    /* padding: 20px; */
 }
 
 .small {
