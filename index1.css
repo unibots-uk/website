@@ -40,7 +40,7 @@ body {
     align-items: center;
     column-gap: 20px;
 
-    flex: 1 1 650px;
+    flex: 0 1 650px;
 }
 
 #logo-container {
@@ -65,15 +65,15 @@ body {
 #header-about {
     display: flex;
     flex-flow: row wrap;
-    justify-content: left;
-    /* justify-content: center; */
+    /* justify-content: left; */
+    justify-content: center;
     align-items: flex-start;
     column-gap: 40px;
 }
 
 #header-about-item {
     padding-top: 40px;
-    
+
 }
 
 .row {
